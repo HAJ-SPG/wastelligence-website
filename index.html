@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="de-AT">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wastelligence – KI-unterstützte Mülltrennung aus Wien</title>
+    <meta
+      name="description"
+      content="Team Wastelligence von der HTL Spengergasse in Wien entwickelt Lösungen, mit denen Müll ohne Nachdenken richtig getrennt wird. Unser erstes Projekt ist SortIQ, ein Mistkübel, welcher den Müll mit KI selbst trennt."
+    />
+    <link rel="canonical" href="https://wastelligence.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_AT" />
+    <meta property="og:site_name" content="Wastelligence" />
+    <meta property="og:url" content="https://wastelligence.com/" />
+    <meta property="og:title" content="Wastelligence – Mülltrennung, die mitdenkt" />
+    <meta
+      property="og:description"
+      content="Drei Schüler:innen der HTL Spengergasse entwickeln Lösungen für einfachere Mülltrennung."
+    />
+    <meta property="og:image" content="https://wastelligence.com/assets/sortiq-vorschau.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/favicon-wastelligence.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://wastelligence.com/#organisation",
+            "name": "Wastelligence",
+            "alternateName": "Team Wastelligence",
+            "url": "https://wastelligence.com/",
+            "logo": "https://wastelligence.com/assets/wastelligence-logo.png",
+            "email": "info@wastelligence.com",
+            "description": "Team der HTL Spengergasse in Wien, das Lösungen für einfachere Mülltrennung entwickelt.",
+            "member": [
+              { "@type": "Person", "name": "Paul Fiala" },
+              { "@type": "Person", "name": "Julia Hammerschmidt" },
+              { "@type": "Person", "name": "David Kutis" }
+            ],
+            "parentOrganization": {
+              "@type": "HighSchool",
+              "name": "HTL Spengergasse",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Spengergasse 20",
+                "postalCode": "1050",
+                "addressLocality": "Wien",
+                "addressCountry": "AT"
+              }
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://wastelligence.com/#website",
+            "url": "https://wastelligence.com/",
+            "name": "Wastelligence",
+            "inLanguage": "de-AT",
+            "publisher": { "@id": "https://wastelligence.com/#organisation" }
+          }
+        ]
+      }
+    </script>
+    <link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="kopf">
+      <nav aria-label="Hauptnavigation">
+        <a class="brand" href="index.html">Waste<span>lligence</span></a>
+        <ul class="menue">
+          <li><a href="index.html#ueber-uns">Über uns</a></li>
+          <li class="has-sub">
+            <a href="index.html#projekte">Projekte</a>
+            <ul class="sub">
+              <li><a href="sortiq.html">SortIQ</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#team">Team</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="buehne">
+        <img
+          class="buehne-bild"
+          src="assets/sortiq-geschlossen.webp"
+          alt="Rendering von SortIQ, ein zylindrischer Mistkübel aus Blech"
+          width="900"
+          height="900"
+        />
+        <div class="buehne-inhalt">
+          <h1>Mülltrennung, die <span>mitdenkt.</span></h1>
+          <div class="buehne-fuss">
+            <p>Wir sind drei Schüler:innen der HTL Spengergasse in Wien und entwickeln Lösungen, mit denen Müll ohne Nachdenken richtig getrennt wird.</p>
+            <div class="aktionen">
+              <a class="btn btn-hell" href="#projekte">Unsere Projekte</a>
+              <a class="btn btn-rand" href="sortiq.html#video"><span class="play"></span>Video ansehen</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projekte" class="produkt">
+        <p class="produkt-label">Unser erstes Projekt</p>
+        <h2 class="produkt-name">SortIQ</h2>
+        <img
+          class="produkt-bild"
+          src="assets/sortiq-offen.webp"
+          alt="Aufgeschnittenes Rendering von SortIQ mit drehbarem Behälter und Einwurfkammer"
+          width="900"
+          height="900"
+          loading="lazy"
+        />
+        <p class="produkt-text">Der Mistkübel, welcher den Müll selbst trennt. Eine Kamera erkennt den Gegenstand und ein KI-Modell direkt am Gerät sortiert ihn ins richtige Fach.</p>
+        <div class="aktionen">
+          <a class="btn btn-dunkel" href="sortiq.html">Mehr zu SortIQ</a>
+        </div>
+      </section>
+
+      <section id="ueber-uns" class="abschnitt">
+        <p class="kicker">Über uns</p>
+        <p class="leitsatz">Viele wissen nicht sicher, wohin ihr Müll gehört. <span>Wir wollen, dass richtiges Trennen so einfach wird, dass niemand mehr darüber nachdenken muss.</span></p>
+        <div class="paare">
+          <div class="paar">
+            <figure>
+              <video src="assets/einwurf-ablauf.mp4" autoplay muted loop playsinline preload="metadata" poster="assets/sortiq-offen.webp" aria-label="Animation des Einwurfs in SortIQ"></video>
+            </figure>
+            <div>
+              <h3>Einwerfen statt Nachdenken</h3>
+              <p>Man muss die Trennregeln nicht kennen. Die Technik erkennt den Gegenstand und erledigt die Trennung in wenigen Sekunden.</p>
+            </div>
+          </div>
+          <div class="paar umgekehrt">
+            <figure>
+              <img src="assets/sortiq-geschlossen.webp" alt="Rendering von SortIQ von außen" width="900" height="900" loading="lazy" />
+            </figure>
+            <div>
+              <h3>Intelligenz ohne Cloud</h3>
+              <p>Unsere KI läuft direkt am Gerät. Dadurch bleiben die Daten vor Ort und es fallen keine laufenden Kosten an.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="abschnitt dunkel">
+        <p class="kicker">Warum das wichtig ist</p>
+        <p class="leitsatz">Wertstoffe landen im Restmüll. <span>Dabei verlangt die EU, dass die Hälfte der Kunststoffverpackungen recycelt wird.</span></p>
+        <div class="zahlen">
+          <div class="zahl"><b>8 von 10</b><span>Flaschen landeten bei einem Versuch in Wien im Restmüll statt in der Gelben Tonne.</span></div>
+          <div class="zahl"><b>27 %</b><span>der Kunststoffverpackungen werden in Österreich derzeit recycelt.</span></div>
+          <div class="zahl"><b>50 %</b><span>verlangt die EU. Jeder richtige Einwurf bringt uns diesem Ziel näher.</span></div>
+        </div>
+      </section>
+
+      <section id="team" class="abschnitt grau">
+        <h2 class="titel">Das Team</h2>
+        <p class="einleitung">An der HTL Spengergasse verbinden wir IT, Technik und Wirtschaft.</p>
+        <div class="raster">
+          <div class="person"><span class="initialen">PF</span><h3>Paul Fiala</h3><p>Projektleitung, Konstruktion und Mechanik</p></div>
+          <div class="person"><span class="initialen">JH</span><h3>Julia Hammerschmidt</h3><p>KI-Modell</p></div>
+          <div class="person"><span class="initialen">DK</span><h3>David Kutis</h3><p>Steuerung</p></div>
+        </div>
+      </section>
+
+      <section class="abschnitt">
+        <div class="partner">
+          <div>
+            <h2 class="titel">Partner</h2>
+            <p>Wir entwickeln SortIQ im Rahmen unserer Diplomarbeit. Getestet wird der Prototyp im Frühjahr 2027 direkt vor Ort im Museum.</p>
+          </div>
+          <ul class="partner-liste">
+            <li>HTL Spengergasse<small>Schule und Betreuung</small></li>
+            <li>Bezirksmuseum Hietzing<small>Testort für den Prototyp</small></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="kontakt" class="kontakt">
+        <h2>Interesse an unseren Projekten?</h2>
+        <p>Ob Museum, Schule, Büro oder Gemeinde, wir freuen uns über Fragen, Feedback und Ideen für einen Test bei euch.</p>
+        <a class="mail-gross" href="mailto:info@wastelligence.com">info@wastelligence.com</a>
+      </section>
+    </main>
+
+    <footer class="fuss">
+      <div class="fuss-spalten">
+        <div>
+          <h2>Navigation</h2>
+          <ul>
+            <li><a href="index.html#ueber-uns">Über uns</a></li>
+            <li><a href="sortiq.html">SortIQ</a></li>
+            <li><a href="index.html#team">Team</a></li>
+            <li><a href="index.html#kontakt">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Kontakt</h2>
+          <ul>
+            <li><a href="mailto:info@wastelligence.com">info@wastelligence.com</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Adresse</h2>
+          <address>Team Wastelligence<br />HTL Spengergasse<br />Spengergasse 20<br />1050 Wien</address>
+        </div>
+      </div>
+      <p class="fuss-marke" aria-hidden="true">Waste<span>lligence</span></p>
+      <div class="fuss-unten">
+        <span>© 2026 Team Wastelligence</span>
+        <a href="impressum.html">Impressum und Datenschutz</a>
+      </div>
+    </footer>
+  </body>
+</html>
