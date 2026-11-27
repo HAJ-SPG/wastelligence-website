@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="de-AT">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kontakt – Wastelligence</title>
+    <meta
+      name="description"
+      content="Schreib Team Wastelligence direkt eine Nachricht: Fragen, Feedback oder Ideen für einen Test von SortIQ bei euch."
+    />
+    <link rel="canonical" href="https://wastelligence.com/kontakt.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_AT" />
+    <meta property="og:site_name" content="Wastelligence" />
+    <meta property="og:url" content="https://wastelligence.com/kontakt.html" />
+    <meta property="og:title" content="Kontakt – Wastelligence" />
+    <meta
+      property="og:image"
+      content="https://wastelligence.com/assets/sortiq-vorschau.jpg"
+    />
+    <link
+      rel="icon"
+      href="assets/favicon-wastelligence.svg"
+      type="image/svg+xml"
+    />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link
+      rel="preload"
+      href="assets/fonts/inter-latin-wght.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header class="kopf">
+      <nav aria-label="Hauptnavigation">
+        <a class="brand" href="index.html">Waste<span>lligence</span></a>
+        <ul class="menue">
+          <li><a href="index.html#ueber-uns">Über uns</a></li>
+          <li class="has-sub">
+            <a href="index.html#projekte">Projekte</a>
+            <ul class="sub">
+              <li><a href="sortiq.html">SortIQ</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#team">Team</a></li>
+          <li><a href="kontakt.html" aria-current="page">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="seitenkopf">
+        <p class="kicker">Kontakt</p>
+        <h1>Schreib uns, wir <span>antworten.</span></h1>
+        <p>
+          Ob Museum, Schule, Büro oder Gemeinde, wir freuen uns über Fragen,
+          Feedback und Ideen für einen Test bei euch.
+        </p>
+      </section>
+
+      <section class="kontakt-seite">
+        <aside class="kontakt-wege">
+          <div class="weg">
+            <h2>E-Mail</h2>
+            <a href="mailto:info@wastelligence.com">info@wastelligence.com</a>
+          </div>
+          <div class="weg">
+            <h2>Instagram</h2>
+            <a
+              class="insta"
+              href="https://www.instagram.com/wastelligence/"
+              rel="noopener"
+              target="_blank"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                width="22"
+                height="22"
+                aria-hidden="true"
+              >
+                <rect
+                  x="3"
+                  y="3"
+                  width="18"
+                  height="18"
+                  rx="5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <circle cx="17.5" cy="6.5" r="1.3" fill="currentColor" />
+              </svg>
+              @wastelligence
+            </a>
+          </div>
+          <div class="weg">
+            <h2>Adresse</h2>
+            <address>
+              Team Wastelligence<br />HTL Spengergasse<br />Spengergasse 20<br />1050
+              Wien
+            </address>
+          </div>
+        </aside>
+
+        <form
+          class="formular"
+          id="kontaktformular"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="d1197829-927c-4dda-9f65-90bd640d00f8"
+          />
+          <input
+            type="hidden"
+            name="subject"
+            value="Neue Nachricht über wastelligence.com"
+          />
+          <input
+            type="hidden"
+            name="from_name"
+            value="Wastelligence Webseite"
+          />
+          <input
+            type="checkbox"
+            name="botcheck"
+            class="versteckt"
+            tabindex="-1"
+            autocomplete="off"
+          />
+
+          <div class="feld-zeile">
+            <label class="feld">
+              <span>Name</span>
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+            <label class="feld">
+              <span>E-Mail</span>
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+          </div>
+          <label class="feld">
+            <span>Wer schreibt uns? <small>(optional)</small></span>
+            <select name="absender">
+              <option value="">Bitte wählen</option>
+              <option>Museum</option>
+              <option>Schule</option>
+              <option>Firma oder Büro</option>
+              <option>Gemeinde</option>
+              <option>Privat</option>
+              <option>Etwas anderes</option>
+            </select>
+          </label>
+          <label class="feld">
+            <span>Nachricht</span>
+            <textarea
+              name="message"
+              rows="6"
+              required
+              placeholder="Worum geht’s?"
+            ></textarea>
+          </label>
+
+          <div class="formular-fuss">
+            <button class="btn btn-dunkel" type="submit">
+              Nachricht senden
+            </button>
+            <p class="hinweis">
+              Deine Angaben verwenden wir nur, um dir zu antworten. Mehr dazu im
+              <a href="impressum.html#datenschutz">Datenschutz</a>.
+            </p>
+          </div>
+          <p class="status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="fuss">
+      <div class="fuss-spalten">
+        <div>
+          <h2>Navigation</h2>
+          <ul>
+            <li><a href="index.html#ueber-uns">Über uns</a></li>
+            <li><a href="sortiq.html">SortIQ</a></li>
+            <li><a href="index.html#team">Team</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Kontakt</h2>
+          <ul>
+            <li>
+              <a href="mailto:info@wastelligence.com">info@wastelligence.com</a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/wastelligence/"
+                rel="noopener"
+                target="_blank"
+                >Instagram @wastelligence</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>Adresse</h2>
+          <address>
+            Team Wastelligence<br />HTL Spengergasse<br />Spengergasse 20<br />1050
+            Wien
+          </address>
+        </div>
+      </div>
+      <p class="fuss-marke" aria-hidden="true">Waste<span>lligence</span></p>
+      <div class="fuss-unten">
+        <span>© 2026 Team Wastelligence</span>
+        <a href="impressum.html">Impressum und Datenschutz</a>
+      </div>
+    </footer>
+  </body>
+</html>
